@@ -1,0 +1,19 @@
+papers:
+
+  - title: "An Adaptive Foreground-Background Separation Method for Effective Binarization of Document Images"
+    authors: "Bishwadeep Das, Showmik Bhowmik, Aniruddha Saha, Ram Sarkar"
+    venue: "Proceedings of the Eighth International Conference on Soft Computing and Pattern Recognition (SoCPaR 2016)"
+    paper_pdf: "/assets/publications/SoCPaR_2016_paper_100.pdf"
+    cv: y
+
+  - title: "Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs"
+    authors: "Soheil Kolouri, Aniruddha Saha, Hamed Pirsiavash, Heiko Hoffmann"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/pdf/1906.10842.pdf"
+    cv: y
+  
+
+  
+
+
+

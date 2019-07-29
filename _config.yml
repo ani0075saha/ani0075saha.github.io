@@ -1,0 +1,11 @@
+<<<<<<< Updated upstream
+theme: jekyll-theme-minimal
+=======
+source:      .
+destination: ./_site
+includes:    ./_includes
+
+collections:
+  projects:
+    output: true
+>>>>>>> Stashed changes
