@@ -34,8 +34,8 @@ title: Home
   <div class="tab-content">
 
     <!-- CV PAPERS -->
-    <div class="tab-pane active" id="papers-ML">
-      {% assign cv_papers = site.data.publications.papers | where: "Computer Vision", "y" %}
+    <div class="tab-pane active" id="papers-CV">
+      {% assign cv_papers = site.data.publications.papers | where: "cv", "y" %}
       {% for paper in cv_papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b>
