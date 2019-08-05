@@ -3,74 +3,6 @@ layout: default
 title: Homepage of Aniruddha Saha
 ---
 
-<div class="container">
-
-  <section class="header">
-    <div class="row">
-      <div class="three columns">
-        <a href="{{ site.baseurl }}/"><img class="u-max-full-width" src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}'></a>
-      </div>
-      <div class="nine columns main-description">
-          <h1>{{ site.data.main_info.name }}</h1>
-          <p>{{ site.data.main_info.title }}</p>
-          <p>{{ site.data.main_info.email }}</p>
-          <p>
-            <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </span>
-
-            <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-            </span>
-
-            <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-              <i class="fa fa-github" aria-hidden="true"></i>
-            </span>
-          </p>
-      </div>
-    </div>
-  </section>
-
-  <div class="navbar-spacer"></div>
-  <nav class="navbar">
-    <div class="container">
-      <ul class="navbar-list">
-        <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
-        <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
-        <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#people" | prepend: site.baseurl }}>People</a></li> -->
-        <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Resume</a></li>
-        <li class="navbar-item"><a class="navbar-link" href={{ "/blog.html" | prepend: site.baseurl }}>Resume</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  {{ content}}
-
-  <div class="footer">
-    <div class="row">
-      <div class="four columns">
-        {{ site.data.main_info.name }}
-      </div>
-      <div class="four columns">
-        {{ site.data.main_info.email }}
-      </div>
-      <div class="four columns">
-        <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-        </span>
-        <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        </span>
-        <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-          <i class="fa fa-github" aria-hidden="true"></i>
-        </span>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
@@ -160,11 +92,30 @@ title: Homepage of Aniruddha Saha
   </ul>
 </div>
 
+<!-- ========== BLOG ========== -->
+<div class="docs-section" id="blog">
+  <h4>BLog</h4>
 
-  <div class="docs-section" id="ack">
-  <h4>Acknowledgement</h4>
-  <p>
-    This website uses the website design and template by <a href="https://github.com/msaveski/www_personal">Martin Saveski</a>
-  </p>
+  <tr>
+    <td>
+      <a href="http://www.csee.umbc.edu/~hpirsiav/papers/transfer_cvpr18.pdf"><img border="0" src="" class="publogo">
+    </a></td>
+    <td>
+      <div class="publication">
+      <p><strong>Boosting Self-Supervised Learning via Knowledge Transfer</strong>
+    <br>Mehdi Noroozi, Ananth Vinjimoor, Paolo Favaro, Hamed Pirsiavash<br>
+		<em>International Conference on Computer Vision and Pattern Recognition (CVPR) 2018.</em><br>
+		<a href="http://www.csee.umbc.edu/~hpirsiav/papers/transfer_cvpr18.pdf">[PDF]</a>
+      </p></div>
+    </td>
+  </tr>
+</div>
+
+
+<div class="docs-section" id="ack">
+<h4>Acknowledgement</h4>
+<p>
+  This website uses the website design and template by <a href="https://github.com/msaveski/www_personal">Martin Saveski</a>
+</p>
 
 </div>
