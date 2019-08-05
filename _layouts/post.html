@@ -1,7 +1,81 @@
----
-layout: default
----
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-{{ content }}
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
+  <meta name="description" content="Homepage of Aniruddha Saha">
+  <meta name="author" content="Aniruddha Saha">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href={{ "/libs/external/skeleton/normalize.css" | prepend: site.baseurl }}>
+  <link rel="stylesheet" href={{ "/libs/external/skeleton/skeleton.css" | prepend: site.baseurl }}>
+  <link rel="stylesheet" href={{ "/libs/custom/my_css.css" | prepend: site.baseurl }}>
+
+  <!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src={{ "/libs/external/jquery-3.1.1.min.js" | prepend: site.baseurl }}></script>
+
+  <!-- Font-Awesome
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href={{ "/libs/external/font-awesome-4.7.0/css/font-awesome.min.css" | prepend: site.baseurl }}>
+
+  <!-- Skeleton tabs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href={{ "/libs/external/skeleton_tabs/skeleton-tabs.css" | prepend: site.baseurl }}>
+  <script src={{ "/libs/external/skeleton_tabs/skeleton-tabs.js" | prepend: site.baseurl }}></script>
+
+  <!-- Timeline
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href={{ "/libs/external/timeline.css" | prepend: site.baseurl }}>
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link rel="stylesheet" href={{ "/libs/external/github-prettify-theme.css" | prepend: site.baseurl }}>-->
+  <script src={{ "/libs/custom/my_js.js" | prepend: site.baseurl }}></script>
+
+  <!-- Favicon
+       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- 
+  <link rel="icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}>
+  <link rel="shortcut icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}>
+  -->
+
+</head>
+<body>
+
+<article class="post">
+<h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title | markdownify }}</a></h1>
+
+<div class="entry">
+    {{ content }}
+</div>
+
+<div class="date">
+    Posted {{ page.date | date: "%Y-%m-%d" }}
+</div>
+
+<div>
+    {% for tag in page.tags | sort %}
+    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify: 'pretty' | url_encode }}" class="post-tag">{{ tag | slugify: 'pretty' | escape }}</a>
+    {% endfor %}
+</div>
+
+<!-- {% include disqus.html %} -->
+</article> 
+
+  
+    
+</body>
+</html>

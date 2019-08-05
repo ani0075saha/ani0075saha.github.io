@@ -94,22 +94,25 @@ title: Homepage of Aniruddha Saha
 
 <!-- ========== BLOG ========== -->
 <div class="docs-section" id="blog">
-  <h4>BLog</h4>
+  <h4>Blog</h4>
 
-  <tr>
-    <td>
-      <a href="posts/2019-08-04.md"><img border="0" src="" class="publogo">
-    </a></td>
-    <td>
-      <div class="publication">
-      <p><strong>Apples</strong>
-    <br><br>
-		<em></em><br>
-		<a href="posts/2019-08-04.md"></a>
-      </p></div>
-    </td>
-  </tr>
-</div>
+
+  <div class="posts">
+    {% for post in site.posts limit:20 %}
+      <article class="post">
+  
+        <h1 class="post-title-above-tags">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | markdownify }}</a>
+        </h1> 
+        
+  
+        <div class="entry">
+          {{ post.excerpt | rstrip | append: ' ...' | markdownify }}
+        </div>
+  
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </article>
+    {% endfor %}  
 
 
 <div class="docs-section" id="ack">
