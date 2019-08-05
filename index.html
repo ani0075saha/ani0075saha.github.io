@@ -13,10 +13,10 @@ title: Homepage of Aniruddha Saha
     I am currently pursuing my PhD in Computer Science at University of Maryland, Baltimore County advised by Dr. Hamed Pirsiavash. My area of research is Computer Vision. I have spent a significant amount of time working on adversarial attacks and defenses - especially for object detection. I have also worked on the currently developing area of poisoning/backdoor attacks on Convolutional Neural Networks.
   </p>
   <p>
-    Prior to this, I was a Software Engineer at Samsung Research Institute Bangalore, India where I was part of the DRAM Group in the Memory Team of Samsung Semiconductor India Research. 
+    Prior to this, I was a Software Engineer at Samsung Research Institute Bangalore, India where I was part of the DRAM Group in the Memory Team of Samsung Semiconductor India Research.
   </p>
   <p>
-    I spend my time taking photos, blogging, playing football, watching good movies and listening to music. I am an avid follower of sports and a supporter of Manchester United FC. 
+    I spend my time taking photos, blogging, playing football, watching good movies and listening to music. I am an avid follower of sports and a supporter of Manchester United FC.
   </p>
 
 </div>
@@ -63,8 +63,8 @@ title: Homepage of Aniruddha Saha
           </div>
         </div>
       {% endfor %}
-    </div>    
-    
+    </div>
+
   </div>
 </div>
 
@@ -100,19 +100,19 @@ title: Homepage of Aniruddha Saha
   <div class="posts">
     {% for post in site.posts limit:20 %}
       <article class="post">
-  
-        <h1 class="post-title-above-tags">
+
+        <h5 class="post-title-above-tags">
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | markdownify }}</a>
-        </h1> 
-        
-  
+        </h5>
+
+
         <div class="entry">
           {{ post.excerpt | rstrip | append: ' ...' | markdownify }}
         </div>
-  
+
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       </article>
-    {% endfor %}  
+    {% endfor %}
 
 
 <div class="docs-section" id="ack">
