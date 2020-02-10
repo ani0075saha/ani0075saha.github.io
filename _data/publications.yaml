@@ -5,8 +5,8 @@ papers:
     venue: "AAAI 2020 Oral"
     paper_pdf: "https://arxiv.org/pdf/1910.00033.pdf"
     code: "https://github.com/UMBCvision/Hidden-Trigger-Backdoor-Attacks"
-    slides:"/assets/publications/Oral_AAAI2020.pdf"
-    poster:"/assets/publications/Poster_AAAI2020.pdf"
+    slides: "/assets/publications/Oral_AAAI2020.pdf"
+    poster: "/assets/publications/Poster_AAAI2020.pdf"
     cv: y
 
   - title: "Adversarial Patches Exploiting Contextual Reasoning in Object Detection"
