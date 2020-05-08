@@ -1,4 +1,11 @@
 papers:
+  - title: "Role of Spatial Context in Adversarial Robustness for Object Detection"
+    authors: "Aniruddha Saha*, Akshayvarun Subramanya*, Koninika Patil, Hamed Pirsiavash"
+    venue: "CVPR 2020 Workshop on Adversarial Machine Learning in Computer Vision"
+    paper_pdf: "https://arxiv.org/pdf/1910.00068.pdf"
+    code: "https://github.com/UMBCvision/Contextual-Adversarial-Patches"
+    cv: y
+    equal: y
 
   - title: "Hidden Trigger Backdoor Attacks"
     authors: "Aniruddha Saha, Akshayvarun Subramanya, Hamed Pirsiavash"
@@ -7,12 +14,6 @@ papers:
     code: "https://github.com/UMBCvision/Hidden-Trigger-Backdoor-Attacks"
     slides: "/assets/publications/Oral_AAAI2020.pdf"
     poster: "/assets/publications/Poster_AAAI2020.pdf"
-    cv: y
-
-  - title: "Adversarial Patches Exploiting Contextual Reasoning in Object Detection"
-    authors: "Aniruddha Saha, Akshayvarun Subramanya, Koninika Patil, Hamed Pirsiavash"
-    venue: "Preprint"
-    paper_pdf: "https://arxiv.org/pdf/1910.00068.pdf"
     cv: y
 
   - title: "Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs"

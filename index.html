@@ -13,21 +13,25 @@ title: Homepage of Aniruddha Saha
   <li>One paper accepted for oral presentation at <a href="https://aaai.org/Conferences/AAAI-20/">AAAI 2020</a>.</li>
   <li>I spent Summer 2019 at <a href="https://www.matroid.com/">Matroid</a> in Palo Alto, CA.</li>
 </ul>
+</div>
 
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h5>Bio</h5>
   <p>
-    This summer, I interned at Matroid where I developed Computer Vision solutions for Matroid studio. I was advised by Reza Zadeh and Danny Jeck. I implemented OpenPose by CMU to run end-to-end inference on Tensorflow GPU for 2D human body pose estimation. Try it out here: <a href="https://www.matroid.com/public_detectors">Matroid Public Detectors</a>
+    I am currently pursuing my PhD in Computer Science at University of Maryland Baltimore County advised by <a href="https://www.csee.umbc.edu/~hpirsiav/">Hamed Pirsiavash</a>. I am broadly interested in discovering, understanding and mitigating adversarial vulnerabilities in deep learning models.
   </p>
   <p>
-    I am currently pursuing my PhD in Computer Science at University of Maryland Baltimore County advised by Hamed Pirsiavash. My area of research is Computer Vision. I have spent a significant amount of time working on adversarial attacks and defenses - especially for object detection. I have also worked on data poisoning/backdoor attacks on Convolutional Neural Networks which has been accepted for oral presentation at <a href="https://aaai.org/Conferences/AAAI-20/">AAAI 2020</a>.
+    My research has involved studying Backdoor Attacks in CNNs - curating attacks and building fast solutions to identify backdoors. I have also investigated how spatial context introduces vulnerabilities in fast object detectors like YOLO and how to train detectors robust to contextual adversarial patches. I am currently studying unsupervised and self-supervised computer vision algorithms for application in computer-assisted colonoscopy procedures.
+  </p>
+  <p>
+    Summer of 2019, I was an intern at Matroid where I developed Computer Vision solutions for Matroid studio. I was advised by Reza Zadeh and Danny Jeck. I implemented OpenPose by CMU to run end-to-end inference on Tensorflow GPU for 2D human body pose estimation. It's now featured on Matroid Studio. Try it out here: <a href="https://www.matroid.com/public_detectors">Matroid Public Detectors</a>
   </p>
   <p>
     Prior to this, I was a Software Engineer at Samsung Research Institute Bangalore, India where I was part of the DRAM Group in the Memory Team of Samsung Semiconductor India Research.
   </p>
   <p>
-    I spend my time taking photos (find me on <a href="https://www.flickr.com/photos/ani0075saha/">Flickr</a>), blogging, playing football, watching good movies and listening to music. I am an avid follower of sports and a supporter of Manchester United FC.
+    I spend my time in <a href="https://www.flickr.com/photos/ani0075saha/">photography</a> and <a href="https://www.twoontrail.com">writing</a> among other things. I am a big football fan and I support Manchester United FC.
   </p>
 
 </div>
@@ -69,8 +73,10 @@ title: Homepage of Aniruddha Saha
           </p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
+          {% if paper.equal%}
+            <p><i>*equal contribution</i></p>
+          {% endif %}
            <div class="paper-buttons">
-
           </div>
         </div>
       {% endfor %}

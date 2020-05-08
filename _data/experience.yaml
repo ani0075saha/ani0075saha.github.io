@@ -1,5 +1,11 @@
 experiences:
 
+- place: "Amazon"
+  time: "Summer 2020"
+  title: "Applied Scientist Intern"
+  subtitle: ""
+  category: "internship"
+
 - place: "Matroid"
   time: "Summer 2019"
   title: "Machine Learning Intern"
@@ -21,7 +27,7 @@ experiences:
 - place: "IIT Delhi"
   time: "Summer 2015"
   title: "Research Intern"
-  subtitle: "Generating Automated Comparisons for Entities. Mentors;Parag Singla & Danish Contractor" 
+  subtitle: "Generating Automated Comparisons for Entities. Mentors: Parag Singla & Danish Contractor"
   category: "intership"
 
 - place: "IIT Kharagpur"
@@ -39,7 +45,7 @@ experiences:
 - place: "IISc Bangalore"
   time: "November 2011"
   title: "Vijyoshi Camp"
-  subtitle: 
+  subtitle:
   category: "camp"
 
 - place: "IISER Pune"
