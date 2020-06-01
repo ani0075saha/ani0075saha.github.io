@@ -2,30 +2,31 @@ papers:
   - title: "Role of Spatial Context in Adversarial Robustness for Object Detection"
     authors: "Aniruddha Saha*, Akshayvarun Subramanya*, Koninika Patil, Hamed Pirsiavash"
     venue: "CVPR 2020 Workshop on Adversarial Machine Learning in Computer Vision"
-    paper_pdf: "https://arxiv.org/pdf/1910.00068.pdf"
+    paper: "https://arxiv.org/abs/1910.00068"
     code: "https://github.com/UMBCvision/Contextual-Adversarial-Patches"
+    cv: y
+    equal: y
+
+  - title: "Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs"
+    authors: "Soheil Kolouri*, Aniruddha Saha*, Hamed Pirsiavash, Heiko Hoffmann"
+    venue: "CVPR 2020 Oral"
+    paper: "https://arxiv.org/abs/1906.10842"
     cv: y
     equal: y
 
   - title: "Hidden Trigger Backdoor Attacks"
     authors: "Aniruddha Saha, Akshayvarun Subramanya, Hamed Pirsiavash"
     venue: "AAAI 2020 Oral"
-    paper_pdf: "https://arxiv.org/pdf/1910.00033.pdf"
+    paper: "https://arxiv.org/abs/1910.00033"
     code: "https://github.com/UMBCvision/Hidden-Trigger-Backdoor-Attacks"
     slides: "/assets/publications/Oral_AAAI2020.pdf"
     poster: "/assets/publications/Poster_AAAI2020.pdf"
     cv: y
 
-  - title: "Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs"
-    authors: "Soheil Kolouri, Aniruddha Saha, Hamed Pirsiavash, Heiko Hoffmann"
-    venue: "Preprint"
-    paper_pdf: "https://arxiv.org/pdf/1906.10842.pdf"
-    cv: y
-
   - title: "An Adaptive Foreground-Background Separation Method for Effective Binarization of Document Images"
     authors: "Bishwadeep Das, Showmik Bhowmik, Aniruddha Saha, Ram Sarkar"
     venue: "Proceedings of the Eighth International Conference on Soft Computing and Pattern Recognition (SoCPaR 2016)"
-    paper_pdf: "/assets/publications/SoCPaR_2016_paper_100.pdf"
+    paper: "/assets/publications/SoCPaR_2016_paper_100.pdf"
     cv: y
 
 
