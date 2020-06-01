@@ -55,8 +55,8 @@ title: Homepage of Aniruddha Saha
       {% for paper in cv_papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b>
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% if paper.paper %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
             {% endif %}
             {% if paper.slides %}
               <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>

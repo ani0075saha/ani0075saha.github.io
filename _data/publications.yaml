@@ -4,6 +4,8 @@ papers:
     venue: "CVPR 2020 Workshop on Adversarial Machine Learning in Computer Vision"
     paper: "https://arxiv.org/abs/1910.00068"
     code: "https://github.com/UMBCvision/Contextual-Adversarial-Patches"
+    video: "https://umbc-my.sharepoint.com/:v:/g/personal/anisaha1_umbc_edu/ERrNYDKMmE1DuahI6JnrKosBs0HkNe5avjUWB8b7HTTQ6A?e=3KBBgV"
+    slides: "https://umbc-my.sharepoint.com/:b:/g/personal/anisaha1_umbc_edu/EQy-Y16hsMVHnwxX_EHKduABx9qBrTZLeklbWWB273AYSw?e=vTzx8k"
     cv: y
     equal: y
 
@@ -11,6 +13,10 @@ papers:
     authors: "Soheil Kolouri*, Aniruddha Saha*, Hamed Pirsiavash, Heiko Hoffmann"
     venue: "CVPR 2020 Oral"
     paper: "https://arxiv.org/abs/1906.10842"
+    code: "https://github.com/UMBCvision/Universal-Litmus-Patterns"
+    webpage: "https://umbcvision.github.io/Universal-Litmus-Patterns/"
+    video: "https://umbc-my.sharepoint.com/:v:/g/personal/anisaha1_umbc_edu/EQPVTadf91RLoYYnzenvTckBMNHOzDVf_pEgl5tDyr8cmQ?e=Z8BI4T"
+    slides: "https://umbc-my.sharepoint.com/:b:/g/personal/anisaha1_umbc_edu/EQhVw1WgQvdBnq3pXlY0QeEB1R_I0-QGcPi_5InO22kPFQ?e=NEWVkH"
     cv: y
     equal: y
 
@@ -19,14 +25,14 @@ papers:
     venue: "AAAI 2020 Oral"
     paper: "https://arxiv.org/abs/1910.00033"
     code: "https://github.com/UMBCvision/Hidden-Trigger-Backdoor-Attacks"
-    slides: "/assets/publications/Oral_AAAI2020.pdf"
-    poster: "/assets/publications/Poster_AAAI2020.pdf"
+    slides: "https://umbc-my.sharepoint.com/:b:/g/personal/anisaha1_umbc_edu/EVDYAm6rYPdDhZhrfufa-eMB0Ifa4F7FfriJRb2o_4J7zA?e=Cwmduf"
+    poster: "https://umbc-my.sharepoint.com/:b:/g/personal/anisaha1_umbc_edu/ESppsDPfwk9Bt3NKA-uPC-8BEG4vmouMr62OMhHSmg4DjA?e=Q7dGby"
     cv: y
 
   - title: "An Adaptive Foreground-Background Separation Method for Effective Binarization of Document Images"
     authors: "Bishwadeep Das, Showmik Bhowmik, Aniruddha Saha, Ram Sarkar"
     venue: "Proceedings of the Eighth International Conference on Soft Computing and Pattern Recognition (SoCPaR 2016)"
-    paper: "/assets/publications/SoCPaR_2016_paper_100.pdf"
+    paper: "https://ani0075.github.io/assets/publications/SoCPaR_2016_paper_100.pdf"
     cv: y
 
 
