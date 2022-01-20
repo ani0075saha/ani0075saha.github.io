@@ -1,4 +1,11 @@
 papers:
+  - title: "Backdoor Attacks on Self-Supervised Learning"
+    authors: "Aniruddha Saha, Ajinkya Tejankar, Soroush Abbasi Koohpayegani, Hamed Pirsiavash"
+    venue: "2021 arXiv preprint"
+    paper: "https://arxiv.org/abs/2105.10123"
+    code: "https://github.com/UMBCvision/SSL-Backdoor"
+    advml: y
+
   - title: "Role of Spatial Context in Adversarial Robustness for Object Detection"
     authors: "Aniruddha Saha*, Akshayvarun Subramanya*, Koninika Patil, Hamed Pirsiavash"
     venue: "CVPR 2020 Workshop on Adversarial Machine Learning in Computer Vision"
@@ -6,7 +13,7 @@ papers:
     code: "https://github.com/UMBCvision/Contextual-Adversarial-Patches"
     video: "https://umbc-my.sharepoint.com/:v:/g/personal/anisaha1_umbc_edu/ERrNYDKMmE1DuahI6JnrKosBs0HkNe5avjUWB8b7HTTQ6A?e=3KBBgV"
     slides: "https://umbc-my.sharepoint.com/:b:/g/personal/anisaha1_umbc_edu/EQy-Y16hsMVHnwxX_EHKduABx9qBrTZLeklbWWB273AYSw?e=vTzx8k"
-    cv: y
+    advml: y
     equal: y
 
   - title: "Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs"
@@ -17,7 +24,7 @@ papers:
     webpage: "https://umbcvision.github.io/Universal-Litmus-Patterns/"
     video: "https://umbc-my.sharepoint.com/:v:/g/personal/anisaha1_umbc_edu/EQPVTadf91RLoYYnzenvTckBMNHOzDVf_pEgl5tDyr8cmQ?e=Z8BI4T"
     slides: "https://umbc-my.sharepoint.com/:b:/g/personal/anisaha1_umbc_edu/EQhVw1WgQvdBnq3pXlY0QeEB1R_I0-QGcPi_5InO22kPFQ?e=NEWVkH"
-    cv: y
+    advml: y
     equal: y
 
   - title: "Hidden Trigger Backdoor Attacks"
@@ -27,13 +34,13 @@ papers:
     code: "https://github.com/UMBCvision/Hidden-Trigger-Backdoor-Attacks"
     slides: "https://umbc-my.sharepoint.com/:b:/g/personal/anisaha1_umbc_edu/EVDYAm6rYPdDhZhrfufa-eMB0Ifa4F7FfriJRb2o_4J7zA?e=Cwmduf"
     poster: "https://umbc-my.sharepoint.com/:b:/g/personal/anisaha1_umbc_edu/ESppsDPfwk9Bt3NKA-uPC-8BEG4vmouMr62OMhHSmg4DjA?e=Q7dGby"
-    cv: y
+    advml: y
 
   - title: "An Adaptive Foreground-Background Separation Method for Effective Binarization of Document Images"
     authors: "Bishwadeep Das, Showmik Bhowmik, Aniruddha Saha, Ram Sarkar"
     venue: "Proceedings of the Eighth International Conference on Soft Computing and Pattern Recognition (SoCPaR 2016)"
     paper: "https://ani0075.github.io/assets/publications/SoCPaR_2016_paper_100.pdf"
-    cv: y
+    imgproc: y
 
 
 
