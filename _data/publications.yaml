@@ -1,7 +1,7 @@
 papers:
   - title: "Backdoor Attacks on Self-Supervised Learning"
     authors: "Aniruddha Saha, Ajinkya Tejankar, Soroush Abbasi Koohpayegani, Hamed Pirsiavash"
-    venue: "2021 arXiv preprint"
+    venue: "CVPR 2022"
     paper: "https://arxiv.org/abs/2105.10123"
     code: "https://github.com/UMBCvision/SSL-Backdoor"
     advml: y
