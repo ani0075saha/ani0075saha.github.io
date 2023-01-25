@@ -1,5 +1,12 @@
 experiences:
 
+- place: "University of Maryland"
+  time: "Current"
+  title: "Postdoctoral Associate"
+  subtitle: "Supervisor: Tom Goldstein"
+  category: "work"
+  direction: "left"
+
 - place: "Bosch AI Center"
   time: "Summer 2022"
   title: "Machine Learning Research Intern"
