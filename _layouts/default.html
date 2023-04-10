@@ -66,7 +66,18 @@
         </div>
         <div class="nine columns main-description">
             <h1>{{ site.data.main_info.name }}</h1>
-            <p>{{ site.data.main_info.pronounce }}</p>
+            <p>{{ site.data.main_info.pronounce }}
+              <script>
+                function playAudio(url) {
+                  new Audio(url).play();
+                }
+              </script>
+              <span onclick="playAudio('https://ani0075saha.github.io/assets/audio/name_pronunciation_aniruddha_saha.mp3')" style="cursor: pointer">
+                <i class="fa fa-file-audio-o" aria-hidden="true"></i>
+              </span>
+              <!-- <input type="button" value="PLAY" onclick="play()">
+              <audio id="audio" src="https://ani0075.github.io/assets/audio/name_pronunciation.mp3"></audio> -->
+            </p>
             <p>{{ site.data.main_info.title }}</p>
             <p>{{ site.data.main_info.address }}</p>
             <p>{{ site.data.main_info.email }}</p>
@@ -101,8 +112,9 @@
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#news" | prepend: site.baseurl }}>News</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
-          <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#people" | prepend: site.baseurl }}>People</a></li> -->
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#timeline" | prepend: site.baseurl }}>Timeline</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#talks" | prepend: site.baseurl }}>Talks</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#service_leadership" | prepend: site.baseurl }}>Service & Leadership</a></li>
         </ul>
       </div>
     </nav>
@@ -115,7 +127,7 @@
           {{ site.data.main_info.name }}
         </div>
         <div class="four columns">
-          Last updated 02/14/2023
+          Last updated 04/10/2023
         </div>
         <div class="four columns">
           <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">

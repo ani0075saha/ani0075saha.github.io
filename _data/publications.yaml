@@ -1,7 +1,9 @@
 papers:
   - title: "Backdoor Attacks on Self-Supervised Learning"
     authors: "Aniruddha Saha, Ajinkya Tejankar, Soroush Abbasi Koohpayegani, Hamed Pirsiavash"
-    venue: "CVPR 2022 Oral"
+    venue: "CVPR 2022"
+    mod: y
+    modifier: "Oral"
     paper: "https://arxiv.org/abs/2105.10123"
     code: "https://github.com/UMBCvision/SSL-Backdoor"
     advml: y
@@ -9,6 +11,8 @@ papers:
   - title: "Role of Spatial Context in Adversarial Robustness for Object Detection"
     authors: "Aniruddha Saha*, Akshayvarun Subramanya*, Koninika Patil, Hamed Pirsiavash"
     venue: "CVPR 2020 Workshop on Adversarial Machine Learning in Computer Vision"
+    mod: y
+    modifier: "Long Paper"
     paper: "https://arxiv.org/abs/1910.00068"
     code: "https://github.com/UMBCvision/Contextual-Adversarial-Patches"
     video: "https://umbc-my.sharepoint.com/:v:/g/personal/anisaha1_umbc_edu/ERrNYDKMmE1DuahI6JnrKosBs0HkNe5avjUWB8b7HTTQ6A?e=3KBBgV"
@@ -18,7 +22,9 @@ papers:
 
   - title: "Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs"
     authors: "Soheil Kolouri*, Aniruddha Saha*, Hamed Pirsiavash, Heiko Hoffmann"
-    venue: "CVPR 2020 Oral"
+    venue: "CVPR 2020"
+    mod: y
+    modifier: "Oral"
     paper: "https://arxiv.org/abs/1906.10842"
     code: "https://github.com/UMBCvision/Universal-Litmus-Patterns"
     webpage: "https://umbcvision.github.io/Universal-Litmus-Patterns/"
@@ -29,7 +35,9 @@ papers:
 
   - title: "Hidden Trigger Backdoor Attacks"
     authors: "Aniruddha Saha, Akshayvarun Subramanya, Hamed Pirsiavash"
-    venue: "AAAI 2020 Oral"
+    venue: "AAAI 2020"
+    mod: y
+    modifier: "Oral"
     paper: "https://arxiv.org/abs/1910.00033"
     code: "https://github.com/UMBCvision/Hidden-Trigger-Backdoor-Attacks"
     slides: "https://umbc-my.sharepoint.com/:b:/g/personal/anisaha1_umbc_edu/EVDYAm6rYPdDhZhrfufa-eMB0Ifa4F7FfriJRb2o_4J7zA?e=Cwmduf"
@@ -39,7 +47,7 @@ papers:
   - title: "An Adaptive Foreground-Background Separation Method for Effective Binarization of Document Images"
     authors: "Bishwadeep Das, Showmik Bhowmik, Aniruddha Saha, Ram Sarkar"
     venue: "Proceedings of the Eighth International Conference on Soft Computing and Pattern Recognition (SoCPaR 2016)"
-    paper: "https://ani0075.github.io/assets/publications/SoCPaR_2016_paper_100.pdf"
+    paper: "https://ani0075saha.github.io/assets/publications/SoCPaR_2016_paper_100.pdf"
     imgproc: y
 
 
