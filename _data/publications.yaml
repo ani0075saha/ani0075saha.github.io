@@ -8,6 +8,7 @@ papers:
     modifier: "Oral"
     paper: "https://arxiv.org/abs/2105.10123"
     code: "https://github.com/UMBCvision/SSL-Backdoor"
+    slides: "https://ani0075saha.github.io/assets/slides/Backdoor_SSL_CVPR_2023_Oral.pdf"
     advml: y
 
   - title: "Role of Spatial Context in Adversarial Robustness for Object Detection"
