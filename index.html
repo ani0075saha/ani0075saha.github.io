@@ -35,7 +35,7 @@ title: Homepage of Aniruddha Saha
     Prior to this, I was a Software Engineer at Samsung Research Institute Bangalore, India where I was part of the DRAM Group of Samsung Semiconductor India Research.
   </p>
   <p>
-    My hobbies include <a href="https://www.flickr.com/photos/ani0075saha/">photography</a>, <a href="https://www.twoontrail.com">writing</a>, playing football and <a href="https://www.chess.com/member/ani0075saha">chess</a>. I support Manchester United FC.
+    My hobbies include <a href="https://www.flickr.com/photos/ani0075saha/">photography</a>, <a href="https://www.twoontrail.com">writing</a>, playing football and <a href="https://www.chess.com/member/ani0075saha">chess</a>. I support Manchester United FC. See what I am <a href="https://www.goodreads.com/user/show/7470693-aniruddha">currently reading.</a>
   </p>
 
 </div>
@@ -132,6 +132,45 @@ title: Homepage of Aniruddha Saha
       {% endfor %}
     </div>
 
+    <!-- PREPRINTS -->
+    <div class="tab-pane inactive" id="papers-PREPRINTS">
+      {% assign preprints = site.data.publications.papers | where: "preprint", "y" %}
+      {% for paper in preprints %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b>
+            {% if paper.paper %}
+              <a class="button" href="{{ paper.paper }}" target="_blank">Paper</a>
+            {% endif %}
+            {% if paper.webpage %}
+              <a class="button" href="{{ paper.webpage }}" target="_blank">Webpage</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i>
+            {% if paper.mod%}
+            <span style="color:red;"><b>({{ paper.modifier }})</b></span>
+          {% endif %} </p>
+          {% if paper.equal%}
+            <p><i>*equal contribution</i></p>
+          {% endif %}
+          <div class="paper-buttons">
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
   </div>
 </div>
 
@@ -163,9 +202,24 @@ title: Homepage of Aniruddha Saha
 <div class="docs-section" id="talks">
   <h5>Talks</h5> 
   <ul>
-    <li> <i>(April 2023) </i><a href="https://www.cse.iitd.ernet.in/">Department of Computer Science and Engineering, Indian Institute of Technology Delhi</a></li>
-    <li> <i>(March 2023) </i><a href="https://sites.google.com/umd.edu/workshop2023ml">NSF-IEEE Workshop: Toward Explainable, Reliable, And Sustainable Machine Learning In Signal & Data Science</a></li>
-    <li> <i>(May 2022) </i><a href="https://www.minds.jhu.edu/">Johns Hopkins Mathematical Institute for Data Science</a></li>
+    <p> <i>(April 2023) </i> <br>
+    <a href="https://www.cse.iitd.ernet.in/">Department of Computer Science and Engineering, Indian Institute of Technology Delhi</a><br>
+    Host: <a href="https://www.cse.iitd.ac.in/~chetan/">Chetan Arora</a> <br>
+    <a href="https://ani0075saha.github.io/assets/slides/CSE_IITD_Aniruddha_Saha_Apr_19_2023">Slides</a><br>
+    </p> 
+
+    <p>
+    <i>(March 2023) </i> <br>
+    <a href="https://sites.google.com/umd.edu/workshop2023ml">NSF-IEEE Workshop: Toward Explainable, Reliable, And Sustainable Machine Learning In Signal & Data Science</a><br>
+    <a href="https://ani0075saha.github.io/assets/slides/Lightning_Talk_Aniruddha_Saha_Mar_20_2023">Slides</a><br>
+    </p>
+    
+    <p> 
+    <i>(May 2022) </i> <br> 
+    <a href="https://www.minds.jhu.edu/">Johns Hopkins Mathematical Institute for Data Science</a> <br>
+    Host: <a href="http://vision.jhu.edu/rvidal.html">René Vidal</a> <br>
+    <a href="https://ani0075saha.github.io/assets/slides/JHU_MINDS_Aniruddha_Saha_May_20_2022">Slides</a><br>
+    </p>
   </ul>
 </div>
 

@@ -1,6 +1,8 @@
 papers:
+
+  # ADVERSARIAL ML
   - title: "Backdoor Attacks on Self-Supervised Learning"
-    authors: "Aniruddha Saha, Ajinkya Tejankar, Soroush Abbasi Koohpayegani, Hamed Pirsiavash"
+    authors: "<u>Aniruddha Saha</u>, Ajinkya Tejankar, Soroush Abbasi Koohpayegani, Hamed Pirsiavash"
     venue: "CVPR 2022"
     mod: y
     modifier: "Oral"
@@ -9,7 +11,7 @@ papers:
     advml: y
 
   - title: "Role of Spatial Context in Adversarial Robustness for Object Detection"
-    authors: "Aniruddha Saha*, Akshayvarun Subramanya*, Koninika Patil, Hamed Pirsiavash"
+    authors: "<u>Aniruddha Saha</u>*, Akshayvarun Subramanya*, Koninika Patil, Hamed Pirsiavash"
     venue: "CVPR 2020 Workshop on Adversarial Machine Learning in Computer Vision"
     mod: y
     modifier: "Long Paper"
@@ -21,7 +23,7 @@ papers:
     equal: y
 
   - title: "Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs"
-    authors: "Soheil Kolouri*, Aniruddha Saha*, Hamed Pirsiavash, Heiko Hoffmann"
+    authors: "Soheil Kolouri*, <u>Aniruddha Saha</u>*, Hamed Pirsiavash, Heiko Hoffmann"
     venue: "CVPR 2020"
     mod: y
     modifier: "Oral"
@@ -34,7 +36,7 @@ papers:
     equal: y
 
   - title: "Hidden Trigger Backdoor Attacks"
-    authors: "Aniruddha Saha, Akshayvarun Subramanya, Hamed Pirsiavash"
+    authors: "<u>Aniruddha Saha</u>, Akshayvarun Subramanya, Hamed Pirsiavash"
     venue: "AAAI 2020"
     mod: y
     modifier: "Oral"
@@ -44,11 +46,18 @@ papers:
     poster: "https://umbc-my.sharepoint.com/:b:/g/personal/anisaha1_umbc_edu/ESppsDPfwk9Bt3NKA-uPC-8BEG4vmouMr62OMhHSmg4DjA?e=Q7dGby"
     advml: y
 
+  # IMAGE PROCESSING
   - title: "An Adaptive Foreground-Background Separation Method for Effective Binarization of Document Images"
-    authors: "Bishwadeep Das, Showmik Bhowmik, Aniruddha Saha, Ram Sarkar"
+    authors: "Bishwadeep Das, Showmik Bhowmik, <u>Aniruddha Saha</u>, Ram Sarkar"
     venue: "Proceedings of the Eighth International Conference on Soft Computing and Pattern Recognition (SoCPaR 2016)"
     paper: "https://ani0075saha.github.io/assets/publications/SoCPaR_2016_paper_100.pdf"
     imgproc: y
+
+  # PREPRINTS
+  - title: "Backdoor Attacks on Vision Transformers"
+    authors: "Akshayvarun Subramanya, <u>Aniruddha Saha</u>, Soroush Abbasi Koohpayegani, Ajinkya Tejankar, Hamed Pirsiavash"
+    paper: "https://arxiv.org/abs/2206.08477"
+    preprint: y
 
 
 
