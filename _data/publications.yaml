@@ -1,6 +1,12 @@
 papers:
 
   # ADVERSARIAL ML
+  - title: "Revisiting Image Classifier Training for Improved Certified Robust Defense against Adversarial Patches"
+    authors: "<u>Aniruddha Saha</u>*, Shuhua Yu*, Mohammad Sadegh Norouzzadeh, Wan-Yi Lin, Chaithanya Kumar Mummadi"
+    venue: "Transactions on Machine Learning Research (TMLR)"
+    paper: "https://openreview.net/pdf?id=2tdhQMLg36"
+    advml: y
+
   - title: "Backdoor Attacks on Self-Supervised Learning"
     authors: "<u>Aniruddha Saha</u>, Ajinkya Tejankar, Soroush Abbasi Koohpayegani, Hamed Pirsiavash"
     venue: "CVPR 2022"
@@ -55,10 +61,31 @@ papers:
     imgproc: y
 
   # PREPRINTS
+  - title: "NEFTune: Noisy Embeddings Improve Instruction Finetuning"
+    authors: "Neel Jain, Ping-yeh Chiang, Yuxin Wen, John Kirchenbauer, Hong-Min Chu, Gowthami Somepalli, Brian R Bartoldson, Bhavya Kailkhura, Avi Schwarzschild, <u>Aniruddha Saha</u>, Micah Goldblum, Jonas Geiping, Tom Goldstein"
+    paper: "https://arxiv.org/abs/2310.05914"
+    preprint: y
+
+  - title: "Baseline Defenses for Adversarial Attacks Against Aligned Language Models"
+    authors: "Neel Jain, Avi Schwarzschild, Yuxin Wen, Gowthami Somepalli, John Kirchenbauer, Ping-yeh Chiang, Micah Goldblum, <u>Aniruddha Saha</u>, Jonas Geiping, Tom Goldstein"
+    paper: "https://arxiv.org/abs/2309.00614"
+    preprint: y
+
+  - title: "Bring Your Own Data! Self-Supervised Evaluation for Large Language Models"
+    authors: "Neel Jain, Khalid Saifullah, Yuxin Wen, John Kirchenbauer, Manli Shu, <u>Aniruddha Saha</u>, Micah Goldblum, Jonas Geiping, Tom Goldstein"
+    paper: "https://arxiv.org/abs/2306.13651"
+    preprint: y
+
+  - title: "On the Reliability of Watermarks for Large Language Models"
+    authors: "John Kirchenbauer, Jonas Geiping, Yuxin Wen, Manli Shu, Khalid Saifullah, Kezhi Kong, Kasun Fernando, <u>Aniruddha Saha</u>, Micah Goldblum, Tom Goldstein"
+    paper: "https://arxiv.org/abs/2306.04634"
+    preprint: y
+
   - title: "Backdoor Attacks on Vision Transformers"
     authors: "Akshayvarun Subramanya, <u>Aniruddha Saha</u>, Soroush Abbasi Koohpayegani, Ajinkya Tejankar, Hamed Pirsiavash"
     paper: "https://arxiv.org/abs/2206.08477"
     preprint: y
+  
 
 
 
