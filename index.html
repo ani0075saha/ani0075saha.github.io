@@ -7,7 +7,8 @@ title: Homepage of Aniruddha Saha
 <div class="docs-section" id="news">
   <h5>News</h5>
 <ul>
-  <li><b>Oct 2023:</b> Our paper on backdoor robustness of Vision Transformers accepted at <a href="https://wacv2024.thecvf.com/">WACV 2024</a>.</li>
+  <li><b>Jan 2024:</b> <a href="https://arxiv.org/abs/2306.04634">Recent</a> <a href="https://arxiv.org/abs/2310.05914">research</a> on LLMs accepted at <a href="https://iclr.cc/">ICLR 2024</a>.</li>
+  <li><b>Oct 2023:</b> Our <a href="https://openaccess.thecvf.com/content/WACV2024/papers/Subramanya_A_Closer_Look_at_Robustness_of_Vision_Transformers_to_Backdoor_WACV_2024_paper.pdf">paper</a> on backdoor robustness of Vision Transformers accepted at <a href="https://wacv2024.thecvf.com/">WACV 2024</a>.</li>
   <li><b>Oct 2023:</b> Our <a href="https://openreview.net/pdf?id=2tdhQMLg36">paper</a> on certified robustness against adversarial patches accepted in <a href="https://jmlr.org/tmlr/">TMLR</a>.</li>
   <li><b>Jul 2023:</b> I am co-organizing the <a href="https://neurips2023-bugs.github.io/">Backdoors in Deep Learning Workshop</a> at <a href="https://nips.cc/Conferences/2023">NeurIPS 2023</a>.</li>
   <li><b>Jan 2023:</b> I will be joining the <a href="https://ml.umd.edu/">Center For Machine Learning</a> at <a href="https://www.umd.edu/">University of Maryland, College Park</a> as a Postdoctoral Associate.</li>
@@ -26,7 +27,7 @@ title: Homepage of Aniruddha Saha
 <div class="docs-section" id="bio">
   <h5>Bio</h5>
   <p>
-    I am currently a Postdoctoral Associate with the <a href="https://ml.umd.edu/">Center for Machine Learning (CML)</a> in the <a href="https://www.umiacs.umd.edu/">University of Maryland Institute for Advanced Computer Studies (UMIACS)</a>. I work under the supervision of <a href="http://www.cs.umd.edu/~tomg/">Tom Goldstein</a>.
+    Most recently, I was a Postdoctoral Associate at the <a href="https://ml.umd.edu/">Center for Machine Learning (CML)</a> in University of Maryland, College Park</a>. I was advised by <a href="http://www.cs.umd.edu/~tomg/">Tom Goldstein</a>.
   </p>
   <p>
     I received my PhD in Computer Science at University of Maryland, Baltimore County. I was advised by <a href="https://web.cs.ucdavis.edu/~hpirsiav/">Hamed Pirsiavash</a>. In my dissertation, I studied ways in which state-of-the-art deep learning methods for computer vision are vulnerable to backdoor attacks and proposed defense methods to remedy the vulnerabilities.
@@ -52,7 +53,8 @@ title: Homepage of Aniruddha Saha
 
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#papers-ADVML">Adversarial ML</div></li>
-    <li><div class="button inactive" data-ref="#papers-IMGPROC">Image Processing</div></li>
+    <li><div class="button inactive" data-ref="#papers-LLM">LLM</div></li>
+    <li><div class="button inactive" data-ref="#papers-MISC">Miscellaneous</div></li>
     <li><div class="button inactive" data-ref="#papers-PREPRINTS">Preprints</div></li>
   </ul>
 
@@ -95,12 +97,51 @@ title: Homepage of Aniruddha Saha
           </div>
         </div>
       {% endfor %}
+    </div>
+    
+    <!-- LLM PAPERS -->
+    <div class="tab-pane inactive" id="papers-LLM">
+      {% assign llm_papers = site.data.publications.papers | where: "llm", "y" %}
+      {% for paper in llm_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b>
+            {% if paper.paper %}
+              <a class="button" href="{{ paper.paper }}" target="_blank">Paper</a>
+            {% endif %}
+            {% if paper.webpage %}
+              <a class="button" href="{{ paper.webpage }}" target="_blank">Webpage</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i>
+            {% if paper.mod%}
+            <span style="color:red;"><b>({{ paper.modifier }})</b></span>
+          {% endif %} </p>
+          {% if paper.equal%}
+            <p><i>*equal contribution</i></p>
+          {% endif %}
+           <div class="paper-buttons">
+          </div>
+        </div>
+      {% endfor %}
     </div>    
 
-    <!-- IMAGE PROCESSING PAPERS -->
-    <div class="tab-pane inactive" id="papers-IMGPROC">
-      {% assign imgproc_papers = site.data.publications.papers | where: "imgproc", "y" %}
-      {% for paper in imgproc_papers %}
+    <!-- MISCELLANEOUS PAPERS -->
+    <div class="tab-pane inactive" id="papers-MISC">
+      {% assign misc_papers = site.data.publications.papers | where: "misc", "y" %}
+      {% for paper in misc_papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b>
             {% if paper.paper %}
