@@ -1,6 +1,12 @@
 papers:
 
   # ADVERSARIAL ML
+  - title: "Generating Potent Poisons and Backdoors from Scratch with Guided Diffusion"
+    authors: "Hossein Souri, Arpit Bansal, Hamid Kazemi, Liam Fowl, <u>Aniruddha Saha</u>, Jonas Geiping, Andrew Gordon Wilson, Rama Chellappa, Tom Goldstein, Micah Goldblum"
+    paper: "https://arxiv.org/pdf/2403.16365"
+    venue: "ICML 2024 Workshop on the Next Generation of AI Safety"
+    advml: y
+  
   - title: "A Closer Look at Robustness of Vision Transformers to Backdoor Attacks"
     authors: "Akshayvarun Subramanya, <u>Aniruddha Saha</u>*, Soroush Abbasi Koohpayegani*, Ajinkya Tejankar, Hamed Pirsiavash"
     paper: "https://openaccess.thecvf.com/content/WACV2024/papers/Subramanya_A_Closer_Look_at_Robustness_of_Vision_Transformers_to_Backdoor_WACV_2024_paper.pdf"
@@ -62,6 +68,13 @@ papers:
     advml: y
 
   # LLM
+  - title: "Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text"
+    authors: "Abhimanyu Hans*, Avi Schwarzschild*, Valeriia Cherepanova, Hamid Kazemi, <u>Aniruddha Saha</u>, Micah Goldblum, Jonas Geiping, Tom Goldstein"
+    paper: "https://arxiv.org/abs/2401.12070"
+    venue: "ICML 2024"
+    llm: y
+    equal: y
+
   - title: "NEFTune - Noisy Embeddings Improve Instruction Finetuning"
     authors: "Neel Jain*, Ping-yeh Chiang*, Yuxin Wen*, John Kirchenbauer, Hong-Min Chu, Gowthami Somepalli, Brian R Bartoldson, Bhavya Kailkhura, Avi Schwarzschild, <u>Aniruddha Saha</u>, Micah Goldblum, Jonas Geiping, Tom Goldstein"
     paper: "https://arxiv.org/abs/2310.05914"
@@ -84,12 +97,6 @@ papers:
     misc: y
 
   # PREPRINTS
-  - title: "Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text"
-    authors: "Abhimanyu Hans*, Avi Schwarzschild*, Valeriia Cherepanova, Hamid Kazemi, <u>Aniruddha Saha</u>, Micah Goldblum, Jonas Geiping, Tom Goldstein"
-    paper: "https://arxiv.org/abs/2401.12070"
-    preprint: y
-    equal: y
-
   - title: "Baseline Defenses for Adversarial Attacks Against Aligned Language Models"
     authors: "Neel Jain, Avi Schwarzschild, Yuxin Wen, Gowthami Somepalli, John Kirchenbauer, Ping-yeh Chiang, Micah Goldblum, <u>Aniruddha Saha</u>, Jonas Geiping, Tom Goldstein"
     paper: "https://arxiv.org/abs/2309.00614"
