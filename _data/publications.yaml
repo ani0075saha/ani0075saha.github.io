@@ -3,7 +3,7 @@ papers:
   # ADVERSARIAL ML
   - title: "Generating Potent Poisons and Backdoors from Scratch with Guided Diffusion"
     authors: "Hossein Souri, Arpit Bansal, Hamid Kazemi, Liam Fowl, <u>Aniruddha Saha</u>, Jonas Geiping, Andrew Gordon Wilson, Rama Chellappa, Tom Goldstein, Micah Goldblum"
-    paper: "https://arxiv.org/pdf/2403.16365"
+    paper: "https://arxiv.org/abs/2403.16365"
     venue: "ICML 2024 Workshop on the Next Generation of AI Safety"
     advml: y
   
