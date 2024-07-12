@@ -68,6 +68,13 @@ papers:
     advml: y
 
   # LLM
+  - title: "Bring Your Own Data! Self-Supervised Evaluation for Large Language Models"
+    authors: "Neel Jain*, Khalid Saifullah*, Yuxin Wen, John Kirchenbauer, Manli Shu, <u>Aniruddha Saha</u>, Micah Goldblum, Jonas Geiping, Tom Goldstein"
+    paper: "https://arxiv.org/abs/2306.13651"
+    venue: "First Conference on Language Modeling (COLM) 2024"
+    llm: y
+    equal: y
+
   - title: "Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text"
     authors: "Abhimanyu Hans*, Avi Schwarzschild*, Valeriia Cherepanova, Hamid Kazemi, <u>Aniruddha Saha</u>, Micah Goldblum, Jonas Geiping, Tom Goldstein"
     paper: "https://arxiv.org/abs/2401.12070"
@@ -100,11 +107,5 @@ papers:
   - title: "Baseline Defenses for Adversarial Attacks Against Aligned Language Models"
     authors: "Neel Jain, Avi Schwarzschild, Yuxin Wen, Gowthami Somepalli, John Kirchenbauer, Ping-yeh Chiang, Micah Goldblum, <u>Aniruddha Saha</u>, Jonas Geiping, Tom Goldstein"
     paper: "https://arxiv.org/abs/2309.00614"
-    preprint: y
-    equal: y
-
-  - title: "Bring Your Own Data! Self-Supervised Evaluation for Large Language Models"
-    authors: "Neel Jain*, Khalid Saifullah*, Yuxin Wen, John Kirchenbauer, Manli Shu, <u>Aniruddha Saha</u>, Micah Goldblum, Jonas Geiping, Tom Goldstein"
-    paper: "https://arxiv.org/abs/2306.13651"
     preprint: y
     equal: y
