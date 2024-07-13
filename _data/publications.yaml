@@ -6,6 +6,8 @@ papers:
     paper: "https://arxiv.org/abs/2403.16365"
     venue: "ICML 2024 Workshop on the Next Generation of AI Safety"
     advml: y
+    mod: y
+    modifier: "Oral"
   
   - title: "A Closer Look at Robustness of Vision Transformers to Backdoor Attacks"
     authors: "Akshayvarun Subramanya, <u>Aniruddha Saha</u>*, Soroush Abbasi Koohpayegani*, Ajinkya Tejankar, Hamed Pirsiavash"
