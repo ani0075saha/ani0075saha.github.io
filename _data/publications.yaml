@@ -1,5 +1,4 @@
 papers:
-
   # ADVERSARIAL ML
   - title: "Generating Potent Poisons and Backdoors from Scratch with Guided Diffusion"
     authors: "Hossein Souri, Arpit Bansal, Hamid Kazemi, Liam Fowl, <u>Aniruddha Saha</u>, Jonas Geiping, Andrew Gordon Wilson, Rama Chellappa, Tom Goldstein, Micah Goldblum"
@@ -70,6 +69,12 @@ papers:
     advml: y
 
   # LLM
+  - title: "LLM-Generated Passphrases That Are Secure and Easy to Remember"
+    authors: "Jie S Li, Jonas Geiping, Micah Goldblum, <u>Aniruddha Saha</u>, Tom Goldstein"
+    paper: "https://aclanthology.org/2025.findings-naacl.290/"
+    venue: "Findings of the Association for Computational Linguistics: NAACL 2025"
+    llm: y
+
   - title: "Bring Your Own Data! Self-Supervised Evaluation for Large Language Models"
     authors: "Neel Jain*, Khalid Saifullah*, Yuxin Wen, John Kirchenbauer, Manli Shu, <u>Aniruddha Saha</u>, Micah Goldblum, Jonas Geiping, Tom Goldstein"
     paper: "https://arxiv.org/abs/2306.13651"
@@ -110,4 +115,10 @@ papers:
     authors: "Neel Jain, Avi Schwarzschild, Yuxin Wen, Gowthami Somepalli, John Kirchenbauer, Ping-yeh Chiang, Micah Goldblum, <u>Aniruddha Saha</u>, Jonas Geiping, Tom Goldstein"
     paper: "https://arxiv.org/abs/2309.00614"
     preprint: y
-    equal: y
+
+  # PATENTS
+  - title: "System and Method with Masking for Certified Defense Against Adversarial Patch Attacks"
+    authors: "Shuhua Yu, <u>Aniruddha Saha</u>, Chaithanya Kumar Mummadi, Wan-Yi Lin"
+    link: "https://patents.google.com/patent/US12236695B2/en"
+    patent: y
+    number: "US12236695B2"

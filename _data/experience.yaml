@@ -13,14 +13,14 @@ experiences:
   category: "work"
   direction: "left"
 
-- place: "Bosch AI Center"
+- place: "Bosch Center for AI"
   time: "Summer 2022"
   title: "Machine Learning Research Intern"
-  subtitle: "Mentors: Mummadi Chaithanya Kumar & Wan-Yi Lin"
+  subtitle: "Mentors: Chaithanya Kumar Mummadi & Wan-Yi Lin"
   category: "internship"
   direction: "right"
 
-- place: "AWS AI"
+- place: "Amazon"
   time: "Summer 2020"
   title: "Applied Scientist Intern"
   subtitle: "Mentors: Wei Xia & Hao Zhou"
