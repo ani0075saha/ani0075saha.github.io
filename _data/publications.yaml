@@ -4,14 +4,17 @@ papers:
     authors: "Hossein Souri, Arpit Bansal, Hamid Kazemi, Liam Fowl, <u>Aniruddha Saha</u>, Jonas Geiping, Andrew Gordon Wilson, Rama Chellappa, Tom Goldstein, Micah Goldblum"
     paper: "https://arxiv.org/abs/2403.16365"
     venue: "ICML 2024 Workshop on the Next Generation of AI Safety"
+    video: "https://icml.cc/virtual/2024/workshop/29944#wse-detail-39738:~:text=30%20a.m.-,Oral%20Session%20%232,-SlidesLive%20Video"
     advml: y
     mod: y
     modifier: "Oral"
   
   - title: "A Closer Look at Robustness of Vision Transformers to Backdoor Attacks"
     authors: "Akshayvarun Subramanya, <u>Aniruddha Saha</u>*, Soroush Abbasi Koohpayegani*, Ajinkya Tejankar, Hamed Pirsiavash"
-    paper: "https://openaccess.thecvf.com/content/WACV2024/papers/Subramanya_A_Closer_Look_at_Robustness_of_Vision_Transformers_to_Backdoor_WACV_2024_paper.pdf"
+    paper: "https://openaccess.thecvf.com/content/WACV2024/html/Subramanya_A_Closer_Look_at_Robustness_of_Vision_Transformers_to_Backdoor_WACV_2024_paper.html"
     venue: "WACV 2024"
+    code: "https://github.com/UCDvision/backdoor_transformer"
+    video: "https://www.youtube.com/watch?v=mwqvn-Nqzbg"
     advml: y
     equal: y
   
@@ -29,7 +32,7 @@ papers:
     modifier: "Oral"
     paper: "https://arxiv.org/abs/2105.10123"
     code: "https://github.com/UMBCvision/SSL-Backdoor"
-    slides: "https://ani0075saha.github.io/assets/slides/Backdoor_SSL_CVPR_2023_Oral.pdf"
+    slides: "https://1drv.ms/b/c/7bd9b8d92d2933d2/EXzS-eJQxZBFjhuJNleo0SUBmi2J01GmVAA-hJci-y3DFg?e=Idyzcr"
     advml: y
 
   - title: "Role of Spatial Context in Adversarial Robustness for Object Detection"
@@ -39,8 +42,8 @@ papers:
     modifier: "Long Paper"
     paper: "https://arxiv.org/abs/1910.00068"
     code: "https://github.com/UMBCvision/Contextual-Adversarial-Patches"
-    video: "https://umbc-my.sharepoint.com/:v:/g/personal/anisaha1_umbc_edu/ERrNYDKMmE1DuahI6JnrKosBs0HkNe5avjUWB8b7HTTQ6A?e=3KBBgV"
-    slides: "https://umbc-my.sharepoint.com/:b:/g/personal/anisaha1_umbc_edu/EQy-Y16hsMVHnwxX_EHKduABx9qBrTZLeklbWWB273AYSw?e=vTzx8k"
+    video: "https://1drv.ms/v/c/7bd9b8d92d2933d2/EdIzKS3ZuNkggHtxGAAAAAAB1WVzBNQqKUIc_ODhJluukQ?e=BQwdUC"
+    slides: "https://1drv.ms/b/c/7bd9b8d92d2933d2/EdIzKS3ZuNkggHtDGAAAAAABq2EEZ9KW8umjQD9foSdpDg?e=JVpfeQ"
     advml: y
     equal: y
 
@@ -52,8 +55,8 @@ papers:
     paper: "https://arxiv.org/abs/1906.10842"
     code: "https://github.com/UMBCvision/Universal-Litmus-Patterns"
     webpage: "https://umbcvision.github.io/Universal-Litmus-Patterns/"
-    video: "https://umbc-my.sharepoint.com/:v:/g/personal/anisaha1_umbc_edu/EQPVTadf91RLoYYnzenvTckBMNHOzDVf_pEgl5tDyr8cmQ?e=Z8BI4T"
-    slides: "https://umbc-my.sharepoint.com/:b:/g/personal/anisaha1_umbc_edu/EQhVw1WgQvdBnq3pXlY0QeEB1R_I0-QGcPi_5InO22kPFQ?e=NEWVkH"
+    video: "https://www.youtube.com/watch?v=b5IUFlgIa9E"
+    slides: "https://1drv.ms/b/c/7bd9b8d92d2933d2/EdIzKS3ZuNkggHsrGAAAAAABJhuTVeAPOA4oNh87MLVUVQ?e=bnAwkv"
     advml: y
     equal: y
 
@@ -64,8 +67,8 @@ papers:
     modifier: "Oral"
     paper: "https://arxiv.org/abs/1910.00033"
     code: "https://github.com/UMBCvision/Hidden-Trigger-Backdoor-Attacks"
-    slides: "https://umbc-my.sharepoint.com/:b:/g/personal/anisaha1_umbc_edu/EVDYAm6rYPdDhZhrfufa-eMB0Ifa4F7FfriJRb2o_4J7zA?e=Cwmduf"
-    poster: "https://umbc-my.sharepoint.com/:b:/g/personal/anisaha1_umbc_edu/ESppsDPfwk9Bt3NKA-uPC-8BEG4vmouMr62OMhHSmg4DjA?e=Q7dGby"
+    slides: "https://1drv.ms/b/c/7bd9b8d92d2933d2/EdIzKS3ZuNkggHu0FwAAAAABW5jtzKVXHM7YXI9K6_IdVg?e=ECJtQ1"
+    poster: "https://1drv.ms/b/c/7bd9b8d92d2933d2/EdIzKS3ZuNkggHu1FwAAAAABLuANOPWTpnC52I-hazTcnw?e=Wt4rDD"
     advml: y
 
   # LLM
@@ -79,6 +82,7 @@ papers:
     authors: "Neel Jain*, Khalid Saifullah*, Yuxin Wen, John Kirchenbauer, Manli Shu, <u>Aniruddha Saha</u>, Micah Goldblum, Jonas Geiping, Tom Goldstein"
     paper: "https://arxiv.org/abs/2306.13651"
     venue: "First Conference on Language Modeling (COLM) 2024"
+    code: "https://github.com/neelsjain/BYOD"
     llm: y
     equal: y
 
@@ -86,6 +90,7 @@ papers:
     authors: "Abhimanyu Hans*, Avi Schwarzschild*, Valeriia Cherepanova, Hamid Kazemi, <u>Aniruddha Saha</u>, Micah Goldblum, Jonas Geiping, Tom Goldstein"
     paper: "https://arxiv.org/abs/2401.12070"
     venue: "ICML 2024"
+    code: "https://github.com/ahans30/Binoculars"
     llm: y
     equal: y
 
@@ -93,6 +98,7 @@ papers:
     authors: "Neel Jain*, Ping-yeh Chiang*, Yuxin Wen*, John Kirchenbauer, Hong-Min Chu, Gowthami Somepalli, Brian R Bartoldson, Bhavya Kailkhura, Avi Schwarzschild, <u>Aniruddha Saha</u>, Micah Goldblum, Jonas Geiping, Tom Goldstein"
     paper: "https://arxiv.org/abs/2310.05914"
     venue: "ICLR 2024"
+    code: "https://github.com/neelsjain/NEFTune"
     llm: y
     equal: y
 
@@ -100,6 +106,7 @@ papers:
     authors: "John Kirchenbauer*, Jonas Geiping*, Yuxin Wen, Manli Shu, Khalid Saifullah, Kezhi Kong, Kasun Fernando, <u>Aniruddha Saha</u>, Micah Goldblum, Tom Goldstein"
     paper: "https://arxiv.org/abs/2306.04634"
     venue: "ICLR 2024"
+    code: "https://github.com/jwkirchenbauer/lm-watermarking"
     llm: y
     equal: y
 
@@ -114,6 +121,7 @@ papers:
   - title: "Baseline Defenses for Adversarial Attacks Against Aligned Language Models"
     authors: "Neel Jain, Avi Schwarzschild, Yuxin Wen, Gowthami Somepalli, John Kirchenbauer, Ping-yeh Chiang, Micah Goldblum, <u>Aniruddha Saha</u>, Jonas Geiping, Tom Goldstein"
     paper: "https://arxiv.org/abs/2309.00614"
+    code: "https://github.com/neelsjain/baseline-defenses"
     preprint: y
 
   # PATENTS
