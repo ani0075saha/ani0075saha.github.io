@@ -125,14 +125,20 @@ papers:
     preprint: y
 
   # PATENTS
+  - title: "System and Method with Masking for Certified Defenses Against Adversarial Patches."
+    authors: "Chaithanya Kumar Mummadi, Wan-Yi Lin, Filipe Condessa, <u>Aniruddha Saha</u>, Shuhua Yu"
+    link: "https://patents.google.com/patent/US12400006B2/en"
+    patent: y
+    number: "US12400006B2"
+  - title: "System and Method with Masking and Inpainting Strategy for Generic Defense Against Patch Attacks"
+    authors: "<u>Aniruddha Saha</u>, Chaithanya Kumar Mummadi, Wan-Yi Lin, Filipe Condessa"
+    link: "https://patents.google.com/patent/US12394028B2/en"
+    patent: y
+    number: "US12394028B2"
   - title: "System and Method with Masking for Certified Defense Against Adversarial Patch Attacks"
     authors: "Shuhua Yu, <u>Aniruddha Saha</u>, Chaithanya Kumar Mummadi, Wan-Yi Lin"
     link: "https://patents.google.com/patent/US12236695B2/en"
     patent: y
     number: "US12236695B2"
 
-  - title: "System and Method with Masking and Inpainting Strategy for Generic Defense Against Patch Attacks"
-    authors: "<u>Aniruddha Saha</u>, Chaithanya Kumar Mummadi, Wan-Yi Lin, Filipe Condessa"
-    link: "https://patents.google.com/patent/US12394028B2/en"
-    patent: y
-    number: "US12394028B2"
+
